@@ -6,6 +6,12 @@
 return {
   -- first key is the mode
   n = {
+    -- tmux vim-like
+    ["<C-h>"] = { "<cmd> TmuxNavigateLeft<cr>", desc = "window left" },
+    ["<C-j>"] = { "<cmd> TmuxNavigateDown<cr>", desc = "window down" },
+    ["<C-k>"] = { "<cmd> TmuxNavigateUp<cr>", desc = "window up" },
+    ["<C-l>"] = { "<cmd> TmuxNavigateRight<cr>", desc = "window right" },
+
     -- second key is the lefthand side of the map
     -- mappings seen under group name "Buffer"
     ["<leader>bn"] = { "<cmd>tabnew<cr>", desc = "New tab" },

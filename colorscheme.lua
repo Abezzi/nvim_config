@@ -1,1 +1,1 @@
-return "poimandres"
+return "catppuccin"
